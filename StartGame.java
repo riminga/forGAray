@@ -6,7 +6,7 @@ public class StartGame {
         while (true){
          Player p1 = new Player();
          Player p2 = new Player();
-         int number = (int) (Math.random() * 10);
+         int number = (int) (Math.random() * 11);
 
          p1.option();
          p2.option();
